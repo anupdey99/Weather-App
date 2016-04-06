@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:paddingLeft="10dp"
+        android:background="#000000">
+
+
+        <TextView
+            android:id="@+id/dayNameForForecastTv"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1.2"
+            android:gravity="center_vertical"
+            android:text="Wednesday"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/weatherImageForForecastIv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:src="@drawable/weather_mostly_sunny"
+
+            />
+
+        <TextView
+            android:id="@+id/maximumTemperatureForForecastTv"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="30°"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/minimumTemperatureForForecastTv"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="28°"
+            android:textColor="#A5D6FF"
+            android:textSize="16sp"
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
